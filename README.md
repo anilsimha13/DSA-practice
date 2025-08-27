@@ -14,3 +14,4 @@ This project is for educational purposes only.
 - Strings: '', " "
 - Array : Can store any values
 - Objects: Key Value pairs
+- Functions

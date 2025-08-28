@@ -15,3 +15,5 @@ This project is for educational purposes only.
 - Array : Can store any values
 - Objects: Key Value pairs
 - Functions
+- if-else
+- else-if

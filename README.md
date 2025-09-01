@@ -17,7 +17,10 @@ This project is for educational purposes only.
 - Functions
 - if-else
 - else-if
-- for loop 
+- for loop (Practice.js File)
+    - Smallest Number
+    - Largest Number
+    - Search Number
 ``` 
 for("initialization";"condition","increment/decrement"){
         // Code goes here

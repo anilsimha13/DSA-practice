@@ -64,3 +64,36 @@ function secondLargestNumberInArray(arr4){
 let arr4 = [11,11,10,10,10,8,9]
 let res4 = secondLargestNumberInArray(arr4)
 console.log(res4,'ww')
+
+console.log('------**********************************')
+
+
+
+function secondLargest(arr) {
+
+        let firstLargestNum = - Infinity
+        let secondLargestNum = - Infinity
+
+
+    if(arr.length<2){
+        return null
+    }
+
+    for (let i = 0; i < arr.length; i++) {
+
+        if (arr[i] > firstLargestNum){
+            secondLargestNum = firstLargestNum
+            firstLargestNum = arr[i]
+        } else if (arr[i] > secondLargestNum && arr[i] != firstLargestNum){
+            secondLargestNum = arr[i]
+
+        }
+
+    }
+
+    return secondLargestNum
+}
+
+let arr = [1,2,3,4,5]
+let rest = secondLargest(arr)
+console.log(rest)

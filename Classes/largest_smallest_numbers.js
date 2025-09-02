@@ -26,6 +26,7 @@ function findLargest(arr2){
 
 let res2 = findLargest([11,222,3333,44444,555555]);
 console.log('Result2:', res2);
+
 console.log('****************************************')
 
 function findSmallest(arr3){
@@ -40,3 +41,26 @@ function findSmallest(arr3){
 
 let res3 = findSmallest([11,222,3333,44444,555555]);
 console.log('Result3:', res3);
+
+console.log('****************************************')
+
+
+function secondLargestNumberInArray(arr4){
+    if (arr4.length<2){
+        return null
+    }
+    let firstLargestNumber = -Infinity
+    let secondLargestNumber = -Infinity
+    for(let i = 0; i< arr4.length; i++){
+        if(arr4[i]>firstLargestNumber){
+            secondLargestNumber = firstLargestNumber
+            firstLargestNumber = arr4[i]
+        }else if(arr4[i] > secondLargestNumber && arr4[i] != firstLargestNumber){
+            secondLargestNumber = arr4[i]
+        }
+    }
+    return secondLargestNumber
+}
+let arr4 = [11,11,10,10,10,8,9]
+let res4 = secondLargestNumberInArray(arr4)
+console.log(res4,'ww')

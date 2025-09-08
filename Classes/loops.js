@@ -128,3 +128,36 @@ function findTheSmallestElement(arr5){
 
 let res5 = findTheSmallestElement([-1,-2,-3,-10,19,10,-Infinity, 20, 30, 40, 50,88,99,7726]);
 console.log('Result:', res5);
+
+
+console.log('----------------Looping with in a Loop----------------')
+
+
+for ( let i = 0; i<3; i++){
+    for ( let j = 0; j<3;j++){
+        console.log(i,'i',j,'j')
+    }
+}
+
+console.log('----------------Looping with in a Loop----------------')
+
+for (let i=0 ; i<5;i++){
+    for(let j = 0; j<=i;j++){   
+        console.log(i,'i',j,'j','()()()()\_________________()()()()')
+    }
+}
+
+console.log('----------------Looping with in a Loop----------------')
+
+for(let i = 0;i<3;i++){
+    for(let j = i;j>=0;j--){
+        console.log('i',i,'j',j)
+    }
+}
+
+console.log('----------------Looping with in a Loop----------------')
+for(let i = 5;i>0;i--){
+    for(let j = 0;j<i;j++){
+        console.log('i',i,'j',j)
+    }
+}

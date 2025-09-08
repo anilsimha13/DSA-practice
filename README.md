@@ -41,3 +41,6 @@ for(let i = 1; i<=10; i++){
     }
 
  ````
+
+ - Loop with in a Loop
+ 
